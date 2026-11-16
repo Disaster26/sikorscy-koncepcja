@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Kancelaria Sikorscy Głogów - księgowość i rozliczenia podatkowe firm</title>
+<meta name="description" content="Kancelaria Sikorscy sp. z o.o. w Głogowie, ul. Gustawa Morcinka 8/6A: księgowość, kadry i płace, rozliczenia podatkowe firm. Kontakt: tomasz@sikorscy.com.pl.">
+<meta name="theme-color" content="#0F1D36">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/inter-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:75% 100%;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:75% 100%;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+010C-010D,U+0118-011B,U+0141-0144,U+0158-0161,U+016E-016F,U+0179-017E}
+@font-face{font-family:"Inter";font-weight:400 700;font-display:swap;src:url(fonts/inter-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Inter";font-weight:400 700;font-display:swap;src:url(fonts/inter-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--nieb:#1747A6;--nieb2:#123A8A;--jas:#4C86F0;--gran:#0F1D36;--gran2:#1A2C4E;--t:#111A2B;--s:#4D5868;--g:#F2F4F7;--l:#DCE1E8;--hh:72px;--gut:clamp(16px,3.4vw,60px);--w:1280px;--head:"Archivo",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.65;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:var(--head);font-weight:700;font-stretch:88%;line-height:1.05;letter-spacing:-.015em}
+h1{font-size:clamp(40px,4.7vw,82px)}
+h2{font-size:clamp(32px,3.4vw,52px)}
+h3{font-size:clamp(20px,1.5vw,23px);line-height:1.2;font-weight:650;font-stretch:92%}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;gap:14px;background:var(--nieb);color:#fff;font-weight:600;font-size:17px;text-decoration:none;padding:17px 26px;border:0;border-radius:3px;line-height:1.2;cursor:pointer;font-family:inherit;transition:background .2s}
+.btn:hover{background:var(--nieb2)}
+.btn svg{width:22px;height:14px;flex:none}
+/* motyw: podwojne podkreslenie sumy */
+.suma{display:block;width:72px;height:8px;border-top:2px solid var(--nieb);border-bottom:2px solid var(--nieb);margin-top:22px}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid var(--l)}
+.top.sc{box-shadow:0 8px 26px rgba(10,20,40,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:26px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--t)}
+.logo svg{width:40px;height:40px;flex:none}
+.logo b{display:block;font-family:var(--head);font-weight:700;font-stretch:88%;font-size:22px;line-height:1}
+.logo small{display:block;font-size:13px;font-weight:500;color:var(--s);line-height:1.2;margin-top:4px}
+.menu{display:flex;gap:2px;margin-left:auto}
+.menu a{text-decoration:none;font-weight:500;font-size:15.5px;padding:10px 14px;color:var(--t);position:relative}
+.menu a:after{content:"";position:absolute;left:14px;right:14px;bottom:3px;height:5px;border-top:2px solid var(--nieb);border-bottom:2px solid var(--nieb);transform:scaleX(0);transition:transform .2s}
+.menu a:hover:after,.menu a.on:after{transform:scaleX(1)}
+.top .tel{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;font-size:16px;color:#fff;background:var(--gran);padding:12px 18px;border-radius:3px;white-space:nowrap}
+.top .tel:hover{background:var(--gran2)}
+.top .tel svg{width:18px;height:18px}
+.burger{display:none;margin-left:auto;width:48px;height:48px;border:1px solid var(--l);background:#fff;border-radius:3px;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger i{display:block;width:20px;height:2px;background:var(--t);position:relative;transition:background .2s}
+.burger i:before,.burger i:after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--t);transition:transform .25s}
+.burger i:before{top:-6px}.burger i:after{top:6px}
+.top.open .burger i{background:transparent}
+.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}
+.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+
+/* pierwszy ekran: tekst na niebie, ratusz u dolu */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:flex-start;color:#fff;background:#2a62c4;overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 100%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,22,48,.62) 0%,rgba(10,22,48,.34) 34%,rgba(10,22,48,0) 58%)}
+.hero .wrap{position:relative;z-index:2;padding:clamp(48px,9vh,110px) 0 48px}
+.hero .kto{font-size:clamp(16px,1.2vw,19px);font-weight:600;color:#E6EEFF;margin-bottom:16px}
+.hero h1{max-width:13em;text-shadow:0 2px 30px rgba(5,15,40,.25)}
+.hero .suma{border-color:#fff;margin-top:26px}
+.hero p.lead{max-width:34em;font-size:clamp(17px,1.3vw,20px);line-height:1.6;margin-top:24px;color:#F1F5FF;text-shadow:0 1px 14px rgba(5,15,40,.35)}
+.hero .btn{margin-top:32px;background:#fff;color:var(--gran)}
+@media (min-width:961px){.hero .in{margin-left:auto;width:min(760px,54%)}.hero:after{background:linear-gradient(180deg,rgba(10,22,48,.5) 0%,rgba(10,22,48,.22) 40%,rgba(10,22,48,0) 60%),linear-gradient(270deg,rgba(10,22,48,.35) 0%,rgba(10,22,48,0) 55%)}}
+.hero .btn:hover{background:#E8EEFA}
+
+section{padding:clamp(72px,8.5vw,128px) 0}
+.szary{background:var(--g)}
+.glowa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 72px;align-items:end;margin-bottom:clamp(36px,4vw,56px)}
+.glowa p{color:var(--s);font-size:18px}
+
+/* uslugi jak ksiega */
+.ksiega{border-top:2px solid var(--t)}
+.ksiega .w{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr) minmax(0,2fr);gap:8px 40px;padding:24px 0;border-bottom:1px solid var(--l);align-items:baseline}
+.ksiega .w:last-child{border-bottom:0;box-shadow:0 2px 0 var(--t),0 6px 0 #fff,0 8px 0 var(--t)}
+.ksiega p{color:var(--s)}
+.ksiega .dla{font-size:14.5px;font-weight:600;color:var(--nieb);text-align:right}
+.uwaga{margin-top:30px;font-size:15px;color:var(--s)}
+
+/* wspolpraca */
+.kroki{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid #CBD2DC}
+.kroki div{padding:28px 32px 6px 0}
+.kroki div+div{padding-left:32px;border-left:1px solid #CBD2DC}
+.kroki h3{margin-bottom:10px}
+.kroki p{color:var(--s)}
+
+/* dane rejestrowe */
+.gran{background:var(--gran);color:#DCE4F2}
+.gran h2{color:#fff}
+.gran .suma{border-color:var(--jas)}
+.gran .glowa p{color:#B9C6DD}
+.rej{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.2)}
+.rej div{padding:22px 24px 22px 0;border-bottom:1px solid rgba(255,255,255,.2)}
+.rej dt{font-size:14.5px;color:#9FB2D3;font-weight:500}
+.rej dd{margin:6px 0 0;font-family:var(--head);font-stretch:92%;font-size:clamp(20px,1.6vw,24px);font-weight:600;color:#fff;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px 80px;align-items:start}
+.dane p{color:var(--s);margin-top:18px}
+.dane a{text-decoration:none}
+.dane .ml{display:block;font-family:var(--head);font-stretch:90%;font-size:clamp(22px,2vw,28px);font-weight:700;margin-top:28px;overflow-wrap:anywhere}
+.dane .ml:hover{color:var(--nieb)}
+.dane address{font-style:normal;margin-top:16px;color:var(--s);font-size:18px}
+form{background:#fff;padding:clamp(22px,3vw,40px);border:1px solid var(--l);border-radius:3px}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pola .cala{grid-column:1/-1}
+label{display:block;font-size:14.5px;font-weight:600;margin-bottom:6px}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1px solid #C5CDD8;border-radius:3px;background:#fff;color:var(--t)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--nieb);outline-offset:0;border-color:var(--nieb)}
+textarea{min-height:110px;resize:vertical}
+form .btn{margin-top:20px}
+.info-form{margin-top:14px;font-size:14.5px;color:var(--s)}
+.mapa{margin-top:clamp(40px,5vw,64px);height:clamp(280px,30vw,400px);background:#E2E7EE;position:relative;border-radius:3px;overflow:hidden}
+.mapa iframe{border:0;width:100%;height:100%;display:block}
+.mapa .zas{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:20px;color:var(--s)}
+.mapa .zas a{font-weight:600;color:var(--t)}
+
+.stopka{background:#fff;border-top:1px solid var(--l);padding:34px 0 30px;font-size:15px;color:var(--s)}
+.stopka .wrap{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr);gap:22px 40px;align-items:start}
+.stopka b{color:var(--t)}
+.stopka a{text-decoration:none;overflow-wrap:anywhere}
+.stopka a:hover{color:var(--nieb)}
+.stopka .dol{grid-column:1/-1;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;padding-top:18px;border-top:1px solid var(--l);font-size:13.5px}
+.stopka .dol span{max-width:62em}
+
+.mob{display:none}
+.cookies{position:fixed;left:12px;bottom:12px;z-index:80;max-width:min(430px,calc(100% - 24px));background:#fff;border:1px solid var(--l);box-shadow:0 10px 30px rgba(0,0,0,.12);padding:14px 16px;font-size:14px;line-height:1.45;display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-radius:3px}
+.cookies[hidden]{display:none}
+.cookies p{flex:1 1 220px}
+.cookies button{font:inherit;font-weight:600;font-size:14px;padding:9px 13px;cursor:pointer;border:1px solid var(--t);background:#fff;border-radius:3px}
+.cookies button.ok{background:var(--gran);color:#fff;border-color:var(--gran)}
+
+@media (max-width:1100px){.menu a{padding:10px 9px;font-size:15px}.menu a:after{left:9px;right:9px}}
+@media (max-width:960px){
+ :root{--hh:64px}
+ .menu{display:none;position:absolute;top:var(--hh);left:0;right:0;background:#fff;flex-direction:column;padding:8px var(--gut) 22px;border-bottom:1px solid var(--l);box-shadow:0 18px 30px rgba(0,0,0,.08)}
+ .top.open .menu{display:flex}
+ .menu a{font-size:19px;padding:14px 0;border-bottom:1px solid var(--g)}
+ .menu a:after{left:0;right:auto;width:28px;bottom:8px}
+ .burger{display:inline-flex;margin-left:8px}
+ .top .tel{margin-left:auto;padding:11px 13px}
+ .glowa,.kontakt{grid-template-columns:minmax(0,1fr)}
+ .kroki{grid-template-columns:minmax(0,1fr)}
+ .kroki div,.kroki div+div{padding:22px 0;border-left:0}
+ .kroki div+div{border-top:1px solid #CBD2DC}
+ .rej{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .stopka .wrap{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .stopka .wrap>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+ body{font-size:16.5px}
+ .top .tel span{display:none}
+ .top .tel{width:48px;height:48px;justify-content:center;padding:0}
+ .logo b{font-size:19px;white-space:nowrap}.logo small{font-size:12px;white-space:nowrap}.m-ukryj{display:none}.logo svg{width:36px;height:36px}
+ .hero picture img{object-position:50% 100%}
+ .hero:after{background:linear-gradient(180deg,rgba(10,22,48,.66) 0%,rgba(10,22,48,.4) 45%,rgba(10,22,48,0) 70%)}
+ .hero .wrap{padding:30px 0 34px}
+ .hero h1{font-size:clamp(34px,10.4vw,46px)}
+ .hero .kto{font-size:15px;margin-bottom:10px}
+ .hero p.lead{font-size:16.5px;margin-top:16px}
+ .hero .suma{margin-top:18px}
+ .hero .btn{margin-top:24px;width:100%;justify-content:space-between}
+ .ksiega .w{grid-template-columns:minmax(0,1fr);gap:6px}
+ .ksiega .dla{text-align:left}
+ .rej{grid-template-columns:minmax(0,1fr)}
+ .pola{grid-template-columns:minmax(0,1fr)}
+ .mob{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1.4fr;transform:translateY(110%);transition:transform .3s}
+ .mob.widac{transform:none}
+ .mob a{display:flex;align-items:center;justify-content:center;padding:16px 10px;font-weight:700;text-decoration:none;color:#fff;background:var(--gran)}
+ .mob a+a{background:var(--nieb)}
+ .stopka{padding-bottom:84px}
+}
+@media (max-width:760px) and (max-height:700px){.hero .wrap{padding-top:22px}.hero p.lead{margin-top:12px}}
+@media (max-width:380px){.logo b{font-size:17px!important}.logo{gap:9px}.top .wrap{gap:12px}}
+.top .tel,.burger{flex:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body data-ck="sik-c">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="znak" viewBox="0 0 40 40"><rect width="40" height="40" rx="3" fill="#0F1D36"/><path d="M9 11h22M9 17h22M9 23h14" stroke="#fff" stroke-width="2.4"/><path d="M9 29.5h22M9 33.5h22" stroke="#4C86F0" stroke-width="2"/></symbol>
+ <symbol id="str" viewBox="0 0 22 14"><path d="M0 7h20M14 1l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="#"><svg><use href="#znak"/></svg><span><b>Kancelaria Sikorscy</b><small>Księgowość i podatki<span class="m-ukryj">, Głogów</span></small></span></a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#uslugi">Usługi</a><a href="#wspolpraca">Współpraca</a><a href="#dane">Dane kancelarii</a><a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="tel" href="mailto:tomasz@sikorscy.com.pl" aria-label="Napisz: tomasz@sikorscy.com.pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg><span>Napisz do nas</span></a>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" style="padding:0">
+ <picture>
+  <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-720.webp 720w" sizes="100vw">
+  <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" width="1600" height="1000" alt="Ratusz w Głogowie na tle błękitnego nieba" fetchpriority="high" decoding="async">
+ </picture>
+ <div class="wrap">
+  <div class="in">
+  <p class="kto">Kancelaria Sikorscy, Głogów</p>
+  <h1>Księgowość i rozliczenia podatkowe dla firm</h1>
+  <span class="suma" aria-hidden="true"></span>
+  <p class="lead">Księgi, kadry i płace, deklaracje i kontakt z urzędami. Co miesiąc wiadomo, ile podatku trzeba zapłacić i do kiedy.</p>
+  <a class="btn" href="#kontakt">Zapytaj o wycenę obsługi <svg><use href="#str"/></svg></a>
+  </div>
+ </div>
+</section>
+
+<section id="uslugi">
+ <div class="wrap">
+  <div class="glowa">
+   <div><h2>Zakres usług</h2><span class="suma" aria-hidden="true"></span></div>
+   <p>Obsługujemy przedsiębiorców z Głogowa i okolic. Dokumenty można przekazywać na miejscu albo elektronicznie.</p>
+  </div>
+  <div class="ksiega">
+   <div class="w"><h3>Pełna księgowość</h3><p>Prowadzenie ksiąg rachunkowych, ewidencje środków trwałych, zamknięcie roku.</p><span class="dla">spółki</span></div>
+   <div class="w"><h3>KPiR i ryczałt</h3><p>Podatkowa księga przychodów i rozchodów, ewidencja przychodów, zaliczki na podatek.</p><span class="dla">JDG</span></div>
+   <div class="w"><h3>VAT, JPK i KSeF</h3><p>Rejestry VAT, pliki JPK, rozliczenia z fakturami z Krajowego Systemu e-Faktur.</p><span class="dla">wszystkie firmy</span></div>
+   <div class="w"><h3>Kadry i płace</h3><p>Listy płac, umowy, rozliczenia ZUS i PIT pracowników.</p><span class="dla">pracodawcy</span></div>
+   <div class="w"><h3>Sprawozdania finansowe</h3><p>Sprawozdanie roczne, zeznania CIT i PIT, wysyłka do KRS i urzędu skarbowego.</p><span class="dla">spółki</span></div>
+   <div class="w"><h3>Sprawy podatkowe</h3><p>Konsultacje przy decyzjach, które mają skutki podatkowe, i pomoc w kontaktach z urzędem.</p><span class="dla">wszystkie firmy</span></div>
+  </div>
+  <p class="uwaga">Zakres usług w podglądzie jest przykładowy, uzupełnimy go zgodnie z ofertą Kancelarii.</p>
+ </div>
+</section>
+
+<section class="szary" id="wspolpraca">
+ <div class="wrap">
+  <div class="glowa">
+   <div><h2>Jak zaczynamy współpracę</h2><span class="suma" aria-hidden="true"></span></div>
+   <p>Przejęcie księgowości od poprzedniego biura albo założenie nowej firmy wygląda podobnie: kilka prostych kroków.</p>
+  </div>
+  <div class="kroki">
+   <div><h3>Rozmowa i wycena</h3><p>Forma działalności, liczba dokumentów w miesiącu, pracownicy. Na tej podstawie przygotowujemy wycenę.</p></div>
+   <div><h3>Umowa i pełnomocnictwa</h3><p>Podpisujemy umowę i pełnomocnictwa do urzędu skarbowego i ZUS, przejmujemy dokumenty z poprzedniego okresu.</p></div>
+   <div><h3>Comiesięczna praca</h3><p>Przekazują Państwo dokumenty za miesiąc, a my księgujemy je i informujemy o kwotach podatków i składek przed terminem.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="gran" id="dane">
+ <div class="wrap">
+  <div class="glowa">
+   <div><h2>Dane kancelarii</h2><span class="suma" aria-hidden="true"></span></div>
+   <p>Kancelaria działa jako spółka z ograniczoną odpowiedzialnością wpisana do Krajowego Rejestru Sądowego.</p>
+  </div>
+  <dl class="rej">
+   <div><dt>Nazwa</dt><dd>Kancelaria Sikorscy sp. z o.o.</dd></div>
+   <div><dt>Adres</dt><dd>ul. Gustawa Morcinka 8/6A, 67-200 Głogów</dd></div>
+   <div><dt>E-mail</dt><dd>tomasz@sikorscy.com.pl</dd></div>
+   <div><dt>KRS</dt><dd>0000952746</dd></div>
+   <div><dt>NIP</dt><dd>693 219 01 20</dd></div>
+   <div><dt>REGON</dt><dd>521244948</dd></div>
+  </dl>
+ </div>
+</section>
+
+<section class="szary" id="kontakt">
+ <div class="wrap">
+  <div class="kontakt">
+   <div class="dane">
+    <h2>Kontakt</h2><span class="suma" aria-hidden="true"></span>
+    <p>Napisz kilka słów o firmie, a przygotujemy wycenę obsługi księgowej.</p>
+    <a class="ml" href="mailto:tomasz@sikorscy.com.pl">tomasz@sikorscy.com.pl</a>
+    <address>ul. Gustawa Morcinka 8/6A<br>67-200 Głogów</address>
+   </div>
+   <form id="form" novalidate>
+    <div class="pola">
+     <div><label for="f1">Imię i nazwisko</label><input id="f1" autocomplete="name"></div>
+     <div><label for="f2">Telefon lub e-mail</label><input id="f2" autocomplete="email"></div>
+     <div><label for="f3">Forma działalności</label><select id="f3"><option>Jednoosobowa działalność</option><option>Spółka z o.o.</option><option>Spółka cywilna lub jawna</option><option>Zakładam firmę</option><option>Inna</option></select></div>
+     <div><label for="f4">Dokumentów w miesiącu</label><select id="f4"><option>do 20</option><option>20-50</option><option>50-100</option><option>ponad 100</option></select></div>
+     <div class="cala"><label for="f5">Wiadomość (opcjonalnie)</label><textarea id="f5" placeholder="Np. zatrudniam 3 osoby, jestem czynnym podatnikiem VAT"></textarea></div>
+    </div>
+    <button class="btn" type="submit">Wyślij zapytanie <svg><use href="#str"/></svg></button>
+    <p class="info-form" id="finfo" role="status">To podgląd strony, formularz niczego jeszcze nie wysyła.</p>
+   </form>
+  </div>
+  <div class="mapa" id="mapa" data-src="https://maps.google.com/maps?q=Gustawa+Morcinka+8,+67-200+G%C5%82og%C3%B3w&amp;z=15&amp;output=embed">
+   <div class="zas"><p>Mapa Google pojawi się po akceptacji plików cookies.</p><a href="https://www.google.com/maps/search/?api=1&amp;query=Gustawa+Morcinka+8+67-200+G%C5%82og%C3%B3w" target="_blank" rel="noopener">Otwórz dojazd w Mapach Google</a></div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="wrap">
+  <div><b>Kancelaria Sikorscy sp. z o.o.</b><br>ul. Gustawa Morcinka 8/6A, 67-200 Głogów<br>KRS 0000952746, NIP 693 219 01 20</div>
+  <div><a href="mailto:tomasz@sikorscy.com.pl">tomasz@sikorscy.com.pl</a></div>
+  <div><a href="#uslugi">Usługi</a><br><a href="#wspolpraca">Współpraca</a><br><a href="#dane">Dane kancelarii</a><br><a href="#kontakt">Kontakt</a></div>
+  <div class="dol">
+   <span>© 2026 Kancelaria Sikorscy sp. z o.o. Polityka prywatności. Zdjęcie: Ratusz w Głogowie, fot. Andrzej Otrębski, Wikimedia Commons, licencja CC BY-SA 4.0.</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=sikorscy.com.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="mob" id="mob"><a href="mailto:tomasz@sikorscy.com.pl">Napisz</a><a href="#kontakt">Zapytaj o wycenę</a></div>
+<div class="cookies" id="cookies" hidden><p>Pliki cookies są potrzebne tylko do wyświetlenia mapy Google.</p><button class="ok" data-c="1">Akceptuję</button><button data-c="0">Tylko niezbędne</button></div>
+<script>try{if(!localStorage.getItem('sik-c'))document.getElementById('cookies').hidden=false}catch(e){document.getElementById('cookies').hidden=false}</script>
+<script src="app.js" defer></script>
+</body>
+</html>
